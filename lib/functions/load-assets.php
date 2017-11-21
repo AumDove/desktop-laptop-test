@@ -3,14 +3,14 @@
 /**
 * Asset loader handler
 *
-* @package Tinydot\Developers
+* @package Tinydot\DevelopersTheme
 * @since 1.0.0
 * @author aumdove
 * @link http://megzencoding.com
 * @license GNU-2.0+
 */
 
-namespace Tinydot\Developers;
+namespace Tinydot\DevelopersTheme;
 
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_assets');
 

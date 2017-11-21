@@ -3,14 +3,14 @@
 /**
 * Helper Files
 *
-* @package Tinydot\Developers\Customizer
+* @package Tinydot\DevelopersTheme\Customizer
 * @since 1.0.0
 * @author aumdove
 * @link http://megzencoding.com
 * @license GNU-2.0+
 */
 
-namespace Tinydot\Developers\Customizer;
+namespace Tinydot\DevelopersTheme\Customizer;
 /**
  * Get the settings prefix.
  *

@@ -3,14 +3,14 @@
 /**
 * Adds the CSS from the Customizer options.
 *
-* @package Tinydot\Developers\Customizer
+* @package Tinydot\DevelopersTheme\Customizer
 * @since 1.0.0
 * @author aumdove
 * @link http://megzencoding.com
 * @license GNU-2.0+
 */
 
-namespace Tinydot\Developers\Customizer;
+namespace Tinydot\DevelopersTheme\Customizer;
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\build_inline_css_from_customizer_settings' );
 /**

@@ -3,12 +3,12 @@
 /**
 * Customizer handler
 *
-* @package Tinydot\Developers\Customizer
+* @package Tinydot\DevelopersTheme\Customizer
 * @since 1.0.0
 * @author aumdove
 * @link http://megzencoding.com * @license GNU-2 . 0 +  */
 
-namespace Tinydot\Developers\Customizer;
+namespace Tinydot\DevelopersTheme\Customizer;
 
 use WP_Customize_Color_Control;
 add_action( 'customize_register', __NAMESPACE__ . '\register_with_customizer' );
