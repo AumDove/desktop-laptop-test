@@ -1,0 +1,6 @@
+/* ## Author Box Title
+================================*/
+
+.author-box-title {
+	@include rem( font-size, $author-box__title--font-size );
+}

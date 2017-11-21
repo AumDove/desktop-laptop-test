@@ -1,0 +1,29 @@
+/* ## Entry Content
+--------------------------------------------- */
+
+
+//? Not sure if this is correct
+.entry-content{
+    ol, ul {
+        margin-bottom: 28px;
+        margin-left: 40px;
+    }
+
+    ol > li {
+        list-style-type: decimal;
+    }
+
+    ul > li {
+        list-style-type: disc;
+    }
+
+    ol ol,
+    ul ul {
+        margin-bottom: 0;
+    }
+
+    code {
+        background-color: $entry-content--background-color;
+        color: $entry-content--color;
+    }
+}
